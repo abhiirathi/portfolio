@@ -1,0 +1,1151 @@
+---
+title: "Business Challenge 2"
+author: "Team 6"
+date: "2024-02-25"
+output: html_document
+---
+
+#### Assignment A1: Analysis in R  - Air France Internet Marketing 
+#### Business Challenge II - BCH-7812 - FMBANDD1 
+#### Hult International Business School 
+
+### INTRODUCTION 
+
+In the fast-changing field of digital advertising, businesses need to maximize their 
+return on investment while navigating the complexity of online marketing techniques. 
+Air France, a global leader in air travel, recognizes the importance of Search Engine 
+Marketing (SEM) in reaching out to potential customers and increasing brand awareness. 
+However, the airline industry's competitive nature has resulted in a large increase in 
+the cost per click (CPC), highlighting the urgent need for strategic optimization. 
+This analysis intends to assist Air France, in conjunction with Media Contracts (MC), in 
+fine-tuning their online marketing strategy to increase return on advertising dollars 
+and conversion rates.
+Therefore, Media Contract is seeking to answer the following questions: 
+
+1) Will a uniform or individual marketing strategy across search engine 
+publishers yield the highest return on marketing investment (ROMI). 
+2) How can individual campaigns be improved to increase ROMI? 
+3) What are the essential KPIs and how will marketing optimization impact these? 
+4) What is the optimal search engine portfolio? 
+
+To answer the above questions, MC will apply the following methodology steps: 
+
+Step 1, conduct research and compare it with Air France's data to identify and 
+develop essential marketing KPI's.
+
+Step 2 evaluate the 4 search engines based on the identified KPIs for both the 
+US and Global segments to determine the optimal marketing strategy. 
+
+Step 3, evaluate the 10 campaigns based on top/bottom keywords, match type, and 
+bid strategy in relation to the identified KPIs. 
+
+Step 4, calculate the identified KPIs for the Kayak metas earch platform and use 
+this as a benchmark to evaluate the performance of the other search engines. 
+
+Step 5, generate insights on the above analysis and estimate the impact on the 
+identified KPIs. 
+
+### Key Insights
+
+#### Insight 1 
+Kayak emerges as an exceptionally efficient platform, particularly in terms of 
+cost-effectiveness and lead conversion. Despite its mediocre performance in generating 
+broad awareness and engagement (as indicated by its cost-per-click performance), 
+its superior cost-per-acquisition metrics highlight its effectiveness in generating 
+quality leads that convert into sales at a significantly lower cost than other platforms. 
+This efficiency translates into a 3x higher return on marketing investment (ROMI) 
+and return on ad spend (ROAS) compared to the next best platform, Yahoo.The analysis 
+underscores the unique value offered by Kayak and suggests its potential as a primary
+platform for converting customers into sales due to its high ROMI. Additionally, 
+it hints at the strategic use of niche platforms like Overture for specific campaign 
+goals like awareness, highlighting the importance of selecting platforms based 
+on their strengths relative to campaign objectives.
+
+#### Insight 2 
+Google’s position as a more expensive platform is justified by its volume and reach, 
+which are unmatched by other platforms. However, the data suggests a need for 
+businesses to remain cognizant of more cost-effective alternatives that can achieve 
+similar objectives without the premium price tag. This insight underscores the 
+importance of balancing reach with cost efficiency to maximize marketing ROI.
+
+#### Insight 3 
+There's a notable opportunity in leveraging high-performing keyword groups to 
+improve the performance of lower-performing campaigns. This approach is grounded 
+in data-driven insights that suggest specific keywords can significantly impact 
+campaign success. By focusing on these keywords, there's potential to transform 
+average or low-performing campaigns into more successful ventures.
+
+### CONCLUSION 
+
+The strategic analysis conducted for Air France by Media Contracts (MC) highlights 
+a path towards optimizing digital advertising strategies to maximize return on investment.
+Key findings underscore Kayak's exceptional efficiency in lead conversion and cost 
+effectiveness, marking it as an ideal platform for customer conversion, despite 
+its lower performance in generating awareness. This insight suggests reallocating 
+resources towards Kayak for sales conversions and utilizing platforms like 
+Overture for targeted awareness campaigns.
+
+The analysis also cautions against over-reliance on expensive platforms like Google,
+despite their extensive reach, advocating for a balanced approach that considers 
+more cost-effective alternatives. Furthermore, the potential of leveraging 
+high-performing keyword groups has been identified as a critical strategy to 
+uplift underperforming campaigns, transforming them into profitable ventures.
+
+In conclusion, this investigation advises Air France to adopt a differentiated 
+SEM strategy that emphasizes cost-effective lead conversion on platforms like 
+Kayak, strategic keyword optimization, and a judicious selection of platforms 
+based on campaign objectives. By implementing these targeted strategies, 
+Air France is poised to enhance its digital marketing ROI, ensuring a more 
+efficient and impactful advertising spend across the competitive landscape 
+of the airline industry.
+
+Based on the below analytical steps, MC recommends the following actions. 
+
+#### Campaign x Platform recommendations and effects: 
+##### On Yahoo:
+Terminate the geo target campaigns for Boston, Detroit, Houston, Los Angeles
+Philadelphia, San Francisco, Seattle on Yahoo. 
+This will improve the respective campaign average ROMI from: 
+* Boston / Detroit / Houston: -0.2 to 0.8. 
+* Los Angeles: -0.3 to 1.3. 
+* Philadelphia: -1.2 to 0.2.
+* San Francisco: 0.3 to 1.3. 
+* Seattle: -0.1 to 0.8.
+And free up: 2,782 in marketing budget. 
+
+##### On Google: 
+Terminate the French Destination and Western Europe Campaigns on Gooole. 
+This will improve the respective campaign average ROMI from 
+* French destination: 0.75 to 1.7 
+* Western Europe: 5.2 to 5.5
+And free up: 40,217 in marketing budget 
+
+##### On all platforms: 
+Terminate the Business Class, Atlanta, Cincinnati, Miami, Outside Western Europe. 
+campaigns
+* Effectively changing their ROMI from -1 to 0. 
+And free up: 7473 in marketing budget. 
+
+##### Google yearlong: 
+The Google yearlong is neither a profitable campaign with a marketing spend of 80300
+and an ROMI of -0.8, this is only feasible if the management belive the awareness 
+spillover effect to other campaigns can justify the net loss of 64,264.
+based on the ROMI, BC recommends to terminate this campaign as Air France is 
+a well known brand and should focus more on conversion rather than awareness. 
+This will free up: 80,300 in marketing budget.
+
+
+This would in total free up 130,772 in marketing budget. 
+This additional budget can either be invested in the Kayak meta search engine 
+at an ROMI of 64.5 which would yield a profit of 8,382,485 assuming a linear 
+relationship between number of sponsored link on kayak and the ROMI. 
+Alternatively, the marketing budget can be used for AB testing new and improved 
+versions of the average and low performing campaigns with new keyword groups. 
+
+Based on the previous analysis the AB test should focus on high-performing keyword 
+groups I for the worst performing campaigns such as Florence, Paris Branded, and 
+Boston to Paris Sale. Furthermore, specific keywords like unassigned, western 
+Europe destinations, geo-targeted Seattle, and geo-targeted Detroit can be tested 
+on average and low performing campaigns.It is not possible, to specify the effect 
+on the ROMI for the campaigns, however based on these keywords performance in other
+combinations it is assumed to result in a positive ROMI.
+
+### ANALYSIS 
+
+
+####  STEP 0 - DATA PREPERATION
+
+INSTALL PACKAGES AND UPDATE LIBRARIES 
+```{r}
+# Install packages if not already installed
+if (!require("readxl")) install.packages("readxl")
+if (!require("viridis")) install.packages("viridis")
+if (!require("scales")) install.packages("scales")
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("wordcloud")) install.packages("wordcloud")
+if (!require("tm")) install.packages("tm")
+if (!require("wordcloud2")) install.packages("wordcloud2")
+
+# Load the necessary library
+library(readxl)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(tidyverse)
+library(viridis)
+library(wordcloud)
+library(tm)
+library(wordcloud2)
+library(scales)
+
+# Setting working directory
+getwd()
+setwd("/Users/chasantos/Library/CloudStorage/OneDrive-HultStudents/MBAN/Business Challenge II")
+# Use this to set your working directory interactively: setwd(file.choose())
+
+# Importing data sources 
+# Sheet 2 with the training data 
+training_df <- read_excel("/Users/chasantos/Library/CloudStorage/OneDrive-HultStudents/MBAN/Business Challenge II/case_data.xlsx", 
+                          sheet = 'training_data')
+# Sheet 3 with the kayak data 
+kayak_df <- read_excel("/Users/chasantos/Library/CloudStorage/OneDrive-HultStudents/MBAN/Business Challenge II/case_data.xlsx", 
+                       sheet = 'kayak_data',
+                       range = 'A8:H9')
+```
+##### MISSING VALUE IMPUTATION
+```{r}
+
+# Check for NA values across the entire dataset
+na_count <- sapply(training_df, function(y) sum(length(which(is.na(y)))))
+na_count <- data.frame(na_count)
+
+# Check for NULL values across the entire dataset (though NULL is less common in data frames)
+null_count <- sapply(training_df, function(y) sum(length(which(is.null(y)))))
+null_count <- data.frame(null_count)
+
+print(na_count)
+print(null_count)
+
+```
+
+##### Check NA and NULL values
+Checked for NA and Null values across all variables in the dataset.
+The Bid Strategy variable had 1193 NA values.
+```{r}
+# Function to calculate mode for a vector
+getmode <- function(v) {
+  uniqv <- unique(na.omit(v))
+  if (length(uniqv) == 0) {
+    return(NA)  # Return NA if there are no non-NA values to calculate mode from
+  } else {
+    return(uniqv[which.max(tabulate(match(v, uniqv)))])
+  }
+}
+
+# Apply the mode imputation for missing 'Bid Strategy' values for each campaign
+training_df <- training_df %>%
+  group_by(Campaign) %>%
+  mutate(
+    `Bid Strategy` = ifelse(is.na(`Bid Strategy`), getmode(`Bid Strategy`), `Bid Strategy`)
+  ) %>%
+  ungroup()
+
+# Manually fill in the '5-10 strategy' for the specific Yahoo - US campaign conditions
+training_df <- training_df %>%
+  mutate(
+    `Bid Strategy` = ifelse(
+      `Publisher Name` == "Yahoo - US" & 
+        (Campaign == "Geo Targeted Atlanta" | Campaign == "Geo Targeted Cincinnati") & 
+        is.na(`Bid Strategy`),
+      "Position 5-10 Bid Strategy",
+      `Bid Strategy`
+    )
+  )
+
+# Check overall missing values again for the entire dataset
+overall_missing_values <- sapply(training_df, function(y) sum(is.na(y)))
+print(data.frame(overall_missing_values))
+
+```
+
+##### Imputation and Final Missing Values Check
+The mode imputation was applied for missing 'Bid Strategy' values for each campaign.
+This ensures that any NA values in 'Bid Strategy' are replaced with the most common strategy used in that particular campaign.
+
+In the original dataset, the 'Bid Strategy' for Yahoo - US, specifically for the 'Geo Targeted Atlanta' and 'Geo Targeted Cincinnati' campaigns, was missing.
+To rectify this, other 'Geo Targeted' campaigns were reviewed to identify a consistent bidding strategy.
+Based on this analysis, 'Position 5-10 Bid Strategy' was identified as commonly used among other 'Geo Targeted' campaigns.
+Therefore, for consistency and in the absence of original data, this bid strategy was manually applied to the aforementioned Yahoo - US campaigns.
+
+After imputation steps, a final check for missing values was conducted for the entire dataset.
+Confirmed that there are no remaining missing values, ensuring the dataset is complete for subsequent analysis.
+
+```{r}
+
+
+```
+### STEP 1 - RESEARCH AND KPI DEVELOPMENT 
+  
+##### KPI Development
+Based on the research four groups of KPIs have been deemed neaseary to evaluate 
+the performance of search engines and campaigns. 
+
+The first group of KPIs is Revenue and Profit KPIs, and include ROAS and ROMI. 
+The purpose of these KPIs is evaluate the profitability of the different segments.
+(Semrush, 2023)
+
+The second group of KPIs is Cost KPIs, and include CPL, CPC, CPA. 
+The purpose of these KPIs is to evaluate the cost structure of the customer journey.
+(Insightwhale, 2019)
+
+The third group of KPIs is Customer Journey KPIs, and include Engagment Rate, 
+Conversion Rate, and Customer Journey Rate. The purpose of these KPIs is to 
+evaluate which parts of the customer journey should be the improved
+(SearchEngineJournal, 2023).
+
+The fourth group of KPIs is bidding KPIs, and include bid saving percentage and 
+bid accuracy. The purpose of these KPIs is to evalute the quality of the bidding 
+strategy. 
+(LinkedIn, 2024)
+
+```{r}
+# Renaming columns to reflect their correct names
+# Revenue 
+training_df$Total_Revenue <- training_df$Amount
+training_df$Amount <- NULL
+# Cost 
+training_df$Total_Cost <- training_df$`Total Cost`
+training_df$`Total Cost` <- NULL
+# Quantity
+training_df$Quantity <- training_df$`Total Volume of Bookings`
+training_df$`Total Volume of Bookings` <- NULL
+
+
+## Revenue and Profit KPIs: 
+# Profit: (revenue - cost)
+training_df$Total_Profit <- training_df$Total_Revenue - training_df$Total_Cost
+
+# Return on ad spend (ROAS): (revenue / cost)
+training_df$ROAS <- training_df$Total_Revenue / training_df$Total_Cost
+
+# Return on Marketing Investment (ROMI)%: (profit / cost) * 100
+training_df$ROMI <- (training_df$Total_Profit / training_df$Total_Cost)
+
+
+## Cost KPIs:  
+# Cost per lead (CPL): (total cost / impressions)
+training_df$CPL <- training_df$Total_Cost / training_df$Impressions
+
+# Cost per Acquisition (CPA): (total cost / Total bookings)
+training_df$CPC <- training_df$`Avg. Cost per Click`
+training_df$`Avg. Cost per Click` <- NULL
+
+# Cost per Acquisition (CPA): (total cost / Total bookings)
+training_df$CPA <- training_df$Total_Cost / training_df$Quantity
+
+
+# Customer Journey KPIs 
+# Engagement Rate %  ((clicks / impressions)* 100)
+training_df$Click_through_rate <- training_df$`Engine Click Thru %`
+training_df$`Engine Click Thru %` <- NULL
+# Conversion rate % ((bookings / clicks) * 100)
+training_df$Conversion_rate <- training_df$`Trans. Conv. %`
+training_df$`Trans. Conv. %` <- NULL
+# Customer journey rate (bookings / impressions) * 100
+training_df$Customer_journey_rate <- (training_df$Quantity / training_df$Impressions)
+
+```
+
+### STEP 2 - SEARCH ENGINE ANALYSIS 
+##### Summary:
+This analysis shows clear differences in profitability and marketing effectiveness 
+between the US and global markets for each publisher, highlighting the need for 
+careful budget planning to use their strengths effectively. While focusing on 
+ROMI and Total Profit is important, adding the Customer journey rate gives us 
+a useful way to look at how well users are engaging with campaigns. 
+Overture, with its lower profits and ROMI in both markets, needs a thorough 
+review to see if it should keep being used to improve SEM performance. 
+The different results between the US and global segments point out that 
+marketing strategies should be customized to not only increase profitability 
+and efficiency but also pay attention to user engagement, as shown by 
+the Customer journey rate, for a well-rounded approach to market challenges.
+
+
+* ##### Group 1) US 
+
+Google in the US sector is a powerhouse for revenue, yet the Average Profit 
+and ROMI suggest there's significant room to sharpen their marketing strategies 
+to enhance returns. The Customer journey rate in campaigns like "Air France Branded" 
+is notably high, indicating strong user interest, but some campaigns, such as 
+"Business Class," show low rates and negative profits, highlighting areas for improvement. 
+MSN in the US demonstrates solid Average Profit and ROMI, indicating that 
+their marketing strategies are resonating well. However, Total Profit does not 
+reflect the impact of its efficiency, suggesting that there is still room for 
+growth in terms of investment. The Customer journey rate varies significantly across campaigns, 
+with some showing high user interest while others lag behind. 
+Overture in the US struggles, with both Total and Average Profit trailing behind, 
+along with the lowest ROMI of 1.5%, signaling a pressing need for strategic 
+re-evaluation to improve market performance. While the Customer journey rate is also low, 
+its Impression volumes are the highest, leading to enhancing brand awareness 
+with their campaigns. Yahoo in the US stands out with an exemplary ROMI of 18.2%, 
+highlighting the efficacy of its marketing tactics and suggesting a particularly 
+strong fit within the market. However, while the "Air France Branded" campaign 
+shows a high Customer journey rate, other geo-targeted campaigns have lower 
+rates and negative profits, indicating areas for optimization. 
+
+
+* ##### Group 2) Global 
+
+Google's global shows a relatively strong Total Profit but a modest ROMI of 4.0%, 
+pointing to possible inefficiencies in advertising or campaign executions that 
+need addressing to improve cost-effectiveness. The Customer journey rate in 
+the "Air France Brand & French Destinations" campaign is high, suggesting 
+effective user engagement at a global level. 
+MSN shines globally with an outstanding ROMI of 11.1%, the highest among its peers, 
+indicating that its marketing investments are generating significant profits. 
+The Customer journey rate in their "Air France Brand & French Destinations" 
+campaign is also high, further supporting their effective global strategy. 
+Overture's global presence, while earning a moderate Total Profit, presents 
+a ROMI of just 2.4%, indicating room for strategic improvement to capitalize 
+on the international market's potential. The low Customer journey rate suggests 
+a need to enhance user engagement in their campaigns even though 
+its Impressions could result in increasing brand awareness. 
+```{r}
+
+
+#------------------------ Analsis for each publisher --------------
+
+### Total Profit and ROMI by Publisher ### 
+
+# Mutate the data to separate "Publisher Name" into "Publisher Name" and "Area"
+training_df_separate <- training_df %>%
+  mutate(
+    `Publisher Name` = gsub(" -.*", "", `Publisher Name`),
+    Area = gsub(".* - ", "", training_df$`Publisher Name`) # References the original 'Publisher Name' column
+  )
+
+summary_table <- training_df_separate %>%
+  group_by(`Publisher Name`, Area) %>%
+  summarise(
+    Total_Revenue = round(sum(Total_Revenue),0),
+    Total_Cost    = round(sum(Total_Cost),0),
+    Quantity      = round(sum(Quantity),0),
+    Clicks        = round(sum(Clicks),0),
+    Impressions   = round(sum(Impressions),0)
+  )
+
+# Calcualating the summarized KPIs
+#Profit
+summary_table$Total_Profit <- round(summary_table$Total_Revenue - summary_table$Total_Cost,0) 
+# Avg Revenue
+summary_table$Avg_Revenue <- round(summary_table$Total_Revenue / summary_table$Quantity,0)
+# Avg Cost
+summary_table$Avg_Cost <- round(summary_table$Total_Cost / summary_table$Quantity,0)
+# Avg Profit
+summary_table$Avg_Profit <- round(summary_table$Total_Profit / summary_table$Quantity,0)
+#ROAS
+summary_table$ROAS <- round(summary_table$Total_Revenue / summary_table$Total_Cost,1)
+#ROMI
+summary_table$ROMI <- round(summary_table$Total_Profit / summary_table$Total_Cost,1)
+#CPL
+summary_table$CPL <- round(summary_table$Total_Cost / summary_table$Impressions,3)
+#CPC
+summary_table$CPC <- round(summary_table$Total_Cost / summary_table$Clicks,3)
+#CPA
+summary_table$CPA <- round(summary_table$Total_Cost / summary_table$Quantity,3)
+
+
+# Reshape the data for plotting
+summary_table_long <- summary_table %>%
+  pivot_longer(
+    cols = c("Total_Profit", "ROMI"),
+    names_to = "Metric",
+    values_to = "Value"
+  )
+
+# Plotting bar and line chart
+ggplot(summary_table_long, aes(x = `Publisher Name`, y = Value)) +
+  geom_bar(data = subset(summary_table_long, Metric == "Total_Profit"), 
+           aes(fill = Area), stat = "identity", position = position_dodge(width = 0.7)) +
+  geom_line(data = subset(summary_table_long, Metric == "ROMI"), 
+            aes(group = Area, color = Area, y = Value * 60000), position = position_dodge(width = 0.7)) +
+  geom_point(data = subset(summary_table_long, Metric == "ROMI"), 
+             aes(group = Area, color = Area, y = Value * 60000), position = position_dodge(width = 0.7), size = 3) +
+  theme_minimal() +
+  scale_y_continuous(
+    name = "Total_Profit", 
+    limits = c(0, 1500000),
+    sec.axis = sec_axis(~ . / 60000, name = "ROMI")) + 
+  labs(title = "Total Profit and ROMI by Publisher and Area", x = "Publisher Name") +
+  scale_fill_manual(values = c("Global" = "darkgreen", "US" = "blue"), name = "Area") +
+  scale_color_manual(values = c("Global" = "yellowgreen", "US" = "skyblue"), name = "Area") +
+  guides(fill = guide_legend(title = "Total_Profit"), 
+         color = guide_legend(title = "ROMI")) +
+  theme(legend.position = "bottom")
+
+```
+
+##### Observations:
+In the US, Google's campaigns bring in high Total Profits, notably $1,316,773, but have a moderate ROMI of 4, suggesting profitable yet cost-intensive marketing strategies. MSN, on the global stage, shows a contrast with lower profits of $128,099 but excels with a high ROMI of 11.1, indicating highly efficient investment returns. Overture, despite garnering significant profits of $129,902 globally and $191,430 in the US, faces lower ROMI figures of 2.4 and 1.5, respectively, pointing to less efficient marketing investments.
+
+Yahoo, however, shines in the US with a Total Profit of $832,649 coupled with a stellar ROMI of 18.2, reflecting highly effective marketing spending. The data reveals a range of outcomes: Google's high revenue with lower return efficiency, MSN's lower revenue with higher efficiency, and Yahoo's blend of high revenue and high efficiency. This suggests room for Google and Overture to refine their marketing to boost ROMI and for MSN to scale its efficient strategies to increase profits. The analysis underscores the importance of aligning marketing spend with return on investment to optimize financial outcomes.
+
+```{r}
+
+
+### Total Profit and ROMI by Publisher and Campaign ### 
+
+summary_table <- training_df_separate %>%
+  group_by(`Publisher Name`, Area,  `Campaign`) %>%
+  summarise(
+    Total_Revenue = round(sum(Total_Revenue),0),
+    Total_Cost    = round(sum(Total_Cost),0),
+    Quantity      = round(sum(Quantity),0),
+    Clicks        = round(sum(Clicks),0),
+    Impressions   = round(sum(Impressions),0)
+  )
+
+# Calcualating the summarized KPIs
+#Profit
+summary_table$Total_Profit <- round(summary_table$Total_Revenue - summary_table$Total_Cost,0) 
+# Avg Revenue
+summary_table$Avg_Revenue <- round(summary_table$Total_Revenue / summary_table$Quantity,0)
+# Avg Cost
+summary_table$Avg_Cost <- round(summary_table$Total_Cost / summary_table$Quantity,0)
+# Avg Profit
+summary_table$Avg_Profit <- round(summary_table$Total_Profit / summary_table$Quantity,0)
+#ROAS
+summary_table$ROAS <- round(summary_table$Total_Revenue / summary_table$Total_Cost,1)
+#ROMI
+summary_table$ROMI <- round(summary_table$Total_Profit / summary_table$Total_Cost,1)
+#CPL
+summary_table$CPL <- round(summary_table$Total_Cost / summary_table$Impressions,3)
+#CPC
+summary_table$CPC <- round(summary_table$Total_Cost / summary_table$Clicks,3)
+#CPA
+summary_table$CPA <- round(summary_table$Total_Cost / summary_table$Quantity,3)
+
+
+# Replace NA with 0 in summary_table_long
+summary_table[is.na(summary_table)] <- 0
+
+# Replace infinite values with 0 in each column of the dataframe
+summary_table <- as.data.frame(lapply(summary_table, function(x) {
+  x[is.infinite(x)] <- 0
+  return(x)
+}))
+
+
+# Reshape the data for plotting
+summary_table_long <- summary_table %>%
+  pivot_longer(
+    cols = c("Total_Profit", "ROMI"),
+    names_to = "Metric",
+    values_to = "Value"
+  )
+
+
+# Combines Publisher Name and Campaign to create a new column and retains the original columns
+summary_table_long <- summary_table_long %>%
+  mutate(Publisher_Campaign = paste(`Publisher.Name`, Campaign, sep = " - "))
+
+total_profit_max <- 1500000  # Maximum value of bar chart scale
+romi_max_percentage <- 30  # Maximum value of line chart scale
+total_profit_min <- -80000  # Minimum value of bar chart scale
+
+# Automatic generation of color palettes for color coding by Publisher Name
+num_publishers <- length(unique(summary_table_long$`Publisher.Name`))
+publisher_colors <- viridis::viridis(num_publishers)
+
+# Plotting bar and line chart
+ggplot(summary_table_long, aes(x = Campaign, y = Value, group = `Publisher.Name`)) +
+  geom_bar(data = filter(summary_table_long, Metric == "Total_Profit"), 
+           aes(fill = `Publisher.Name`), stat = "identity", position = position_dodge(width = 0.7)) +
+  geom_line(data = filter(summary_table_long, Metric == "ROMI"), 
+            aes(color = `Publisher.Name`, y = if_else(Value < 0, 0, Value * (total_profit_max / romi_max_percentage))), 
+            position = position_dodge(width = 0.7)) +
+  geom_point(data = filter(summary_table_long, Metric == "ROMI"), 
+             aes(fill = `Publisher.Name`, y = if_else(Value < 0, 0, Value * (total_profit_max / romi_max_percentage))), 
+             position = position_dodge(width = 0.7), size = 2, shape = 21, stroke = 0.5, color = "black") + 
+  scale_y_continuous(
+    name = "Total Profit", 
+    limits = c(total_profit_min, total_profit_max),  # Set minimum and maximum values of Y axis
+    sec.axis = sec_axis(~ . / (total_profit_max / romi_max_percentage), 
+                        name = "ROMI (%)",
+                        labels = scales::percent_format(scale = 1))) +
+  labs(title = "Total Profit and ROMI by Publisher and Campaign",
+       fill = "Publisher Name",  # Set legend title
+       color = "Publisher Name") +  
+  scale_fill_manual(values = publisher_colors) +
+  scale_color_manual(values = publisher_colors) +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+```
+
+##### Observations:
+The graph of Total Profit and ROMI highlights that Google's "Air France Branded" 
+campaign in the US, MSN's "Air France Brand & French Destinations" globally, 
+and Yahoo's "Air France Branded" in the US are highly efficient with remarkable 
+profits and ROMI. 
+Conversely, Google's "Business Class" and "Outside Western Europe" campaigns 
+in the US, along with Yahoo's "Geo Targeted" series, show negative profits and low ROMI, 
+indicating inefficiency. Additionally, Overture's "Unassigned" campaigns, 
+despite having high Total Profits, have low ROMI, suggesting a need for strategic reevaluation. 
+
+```{r}
+### Avg Profit and ROMI by Publisher and Campaign ### 
+
+# Reshape the data for plotting
+summary_table_long <- summary_table %>%
+  pivot_longer(
+    cols = c("Avg_Profit", "ROMI"),
+    names_to = "Metric",
+    values_to = "Value"
+  )
+
+
+# Combines Publisher Name and Campaign to create a new column and retains the original columns
+summary_table_long <- summary_table_long %>%
+  mutate(Publisher_Campaign = paste(`Publisher.Name`, Campaign, sep = " - "))
+
+total_profit_max <- 4000  # Maximum value of bar chart scale
+total_profit_min <- -5000   # Minimum value of bar chart scale
+romi_max_percentage <- 30  # Maximum value of line chart scale
+
+num_publishers <- length(unique(summary_table_long$`Publisher.Name`))
+publisher_colors <- viridis::viridis(num_publishers)  # Color for bar chart
+
+# Manually generate a color palette with clearly distinguishable colors for line graphs
+line_colors <- c("#E24A33", "#348ABD", "#988ED5", "#777777", "#FBC15E", "#8EBA42", "#FFB5B8")
+
+# Plotting bar and line chart
+ggplot(summary_table_long, aes(x = Campaign, y = Value, group = `Publisher.Name`)) +
+  geom_bar(data = filter(summary_table_long, Metric == "Avg_Profit"), 
+           aes(fill = `Publisher.Name`), stat = "identity", position = position_dodge(width = 0.7)) +
+  geom_line(data = filter(summary_table_long, Metric == "ROMI"), 
+            aes(color = `Publisher.Name`, y = if_else(Value < 0, 0, Value * (total_profit_max / romi_max_percentage))), 
+            position = position_dodge(width = 0.7)) +
+  geom_point(data = filter(summary_table_long, Metric == "ROMI"), 
+             aes(fill = `Publisher.Name`, y = if_else(Value < 0, 0, Value * (total_profit_max / romi_max_percentage))), 
+             position = position_dodge(width = 0.7), size = 2, shape = 21, stroke = 0.5, color = "black") +
+  scale_y_continuous(
+    name = "Avg Profit", 
+    limits = c(total_profit_min, total_profit_max),  # Set minimum and maximum values of Y axis
+    sec.axis = sec_axis(~ . / (total_profit_max / romi_max_percentage), 
+                        name = "ROMI (%)",
+                        labels = scales::percent_format(scale = 1))) +
+  labs(title = "Avg Profit and ROMI by Publisher and Campaign",
+       fill = "Publisher Name",  # Set legend title
+       color = "Publisher Name") +  
+  scale_fill_manual(values = publisher_colors) +
+  scale_color_manual(values = line_colors) +  
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+```
+
+##### Observations:
+This graph shows that Yahoo's "Geo Targeted Chicago" campaign leads with the highest 
+Avg_Profit of 3600, despite a moderate ROMI of 4.5. Google's "Air France Branded" 
+in the US and MSN's "Air France Brand & French Destinations" globally also perform well, 
+with Avg_Profit over 1000 and ROMI above 11. Conversely, Google's "Google_Yearlong 2006" 
+campaign has the lowest Avg_Profit at -4774 and a negative ROMI, indicating a need for 
+strategic revision. 
+Yahoo's "Air France Branded" in the US also excels with an Avg_Profit of 1304 and 
+a ROMI of 28.1, while some of Google's and Yahoo's other campaigns show inefficiencies requiring attention.
+
+### STEP 3 - CAMPAIGN ANALYSIS 
+
+##### Group 1) US campaigns: 
+Atlanta, Boston, Chicago, Cincinnati, DC, Detroit, Houston, Los Angeles, 
+Miami, New York, Philadelphia, San Francisco, Seattle 
+
+##### Group 2) French campaigns: 
+Air France Brand & French Destinations, Paris & France Terms. 
+
+##### Group 3) Europe: 
+Western Europe Destinations, 
+
+##### Group 4) Global: 
+Air France Global Campaign, Outside Western Europe 
+
+##### Group 5) Miscellaneous: 
+Air France Branded, Business Class, General Terms, Google_yearlong 2006, Unassigned
+
+```{r}
+training_df$Keyword <- tolower(training_df$`Campaign`)
+
+# Summarizing the search engine data
+Campaigns_df <- training_df %>%
+  group_by(`Campaign`) %>%
+  summarise(
+    Total_Revenue = round(sum(Total_Revenue),0),
+    Total_Cost    = round(sum(Total_Cost),0),
+    Clicks        = round(sum(Clicks),0),
+    Impressions   = round(sum(Impressions),0),
+    Quantity      = round(sum(Quantity),0),
+    SE_Bid = round(mean(`Search Engine Bid`),2),
+    Avg_Pos = round(mean(`Avg. Pos.`),2)
+  )
+
+# Calcualating the summarized KPIs
+#Profit
+Campaigns_df$Total_Profit <- round(Campaigns_df$Total_Revenue - Campaigns_df$Total_Cost,0) 
+# Avg Revenue
+Campaigns_df$Avg_Revenue <- round(Campaigns_df$Total_Revenue / Campaigns_df$Quantity,0)
+# Avg Cost
+Campaigns_df$Avg_Cost <- round(Campaigns_df$Total_Cost / Campaigns_df$Quantity,0)
+# Avg Profit
+Campaigns_df$Avg_Profit <- round(Campaigns_df$Total_Profit / Campaigns_df$Quantity,0)
+#ROAS
+Campaigns_df$ROAS <- round(Campaigns_df$Total_Revenue / Campaigns_df$Total_Cost,1)
+#ROMI
+Campaigns_df$ROMI <- round(Campaigns_df$Total_Profit / Campaigns_df$Total_Cost,1)
+#CPL
+Campaigns_df$CPL <- round(Campaigns_df$Total_Cost / Campaigns_df$Impressions,3)
+#CPC
+Campaigns_df$CPC <- round(Campaigns_df$Total_Cost / Campaigns_df$Clicks,3)
+#CPA - adding formula to make sure there is no infinity values
+Campaigns_df$CPA <- ifelse(is.infinite(Campaigns_df$Total_Cost / Campaigns_df$Quantity), 
+                           0, 
+                           round(Campaigns_df$Total_Cost / Campaigns_df$Quantity, 3))
+#Engagement Rate %  ((clicks / impressions)* 100)
+Campaigns_df$Engagement_rate <-  round((Campaigns_df$Clicks/ Campaigns_df$Impressions) * 100,2)
+#Conversion rate % ((bookings / clicks) * 100)
+Campaigns_df$Conversion_rate <- round((Campaigns_df$Quantity/ Campaigns_df$Clicks) * 100,2)
+# Customer journey rate (bookings / impressions) * 100
+Campaigns_df$Customer_journey_rate <- round((Campaigns_df$Quantity/ Campaigns_df$Impressions) * 100,2)
+
+
+campaign_summary_df <- Campaigns_df %>%
+  group_by(`Campaign`) %>%
+  summarise(
+    ROMI,
+    ROAS,
+    CPL,
+    CPC,
+    CPA,
+    Engagement_rate,
+    Conversion_rate,
+    Customer_journey_rate,
+    Quantity,
+    SE_Bid,
+    Avg_Pos,
+  )%>%
+  arrange(desc(ROMI))
+
+# Create a new column 'Perf_Group' based on the 'Campaign' column to bucket each campaign based on its performance
+training_df <- training_df %>%
+  mutate(Perf_Group = case_when(
+    Campaign %in% c("Air France Branded", "Air France Brand & French Destinations") ~ "Top_Perf",
+    Campaign %in% c("Geo Targeted Chicago", "Geo Targeted DC", "Air France Global Campaign", "Geo Targeted New York", "Geo Targeted Houston") ~ "High_Perf",
+    Campaign %in% c("General Terms", "Unassigned", "Geo Targeted Seattle", "Geo Targeted San Francisco", 
+                    "Paris & France Terms", "Geo Targeted Boston", "Geo Targeted Detroit", 
+                    "Geo Targeted Los Angeles", "Western Europe Destinations") ~ "Average_Perf",
+    Campaign %in% c("French Destinations", "Geo Targeted Atlanta", "Geo Targeted Philadelphia", "Google_Yearlong 2006", "Business Class", "Geo Targeted Cincinnati", "Geo Targeted Miami", "Outside Western Europe") ~ "Low_Perf",
+  ))
+
+# Summarize the average ROMI for each Perf_Group
+avg_romi_by_group <- training_df %>%
+  group_by(Perf_Group) %>%
+  summarise(ROMI = mean(ROMI)) %>%
+  arrange(desc(ROMI))
+
+# Creating heatmap for visualization
+# Hot encoding data for easier reference
+# Data
+heat_map_data <- campaign_summary_df%>%
+  select(Campaign, ROMI, ROAS, CPL, CPC, CPA, Engagement_rate, Conversion_rate, Customer_journey_rate)
+
+# Standardizing the data to create heatmap
+standardized_data <- heat_map_data %>%
+  mutate(across(-Campaign, scale))
+
+# Reshaping the data for plotting
+standardized_melted <- standardized_data %>%
+  pivot_longer(cols = -Campaign, names_to = "Metric", values_to = "Value")
+
+# Analyzing campaigns 
+print(campaign_summary_df) # Printing for analysis (See observations)
+
+# Creating the heatmap
+ggplot(standardized_melted, aes(x = Metric, y = Campaign, fill = Value)) +
+  geom_tile() +
+  scale_fill_viridis_c() +
+  labs(title = "Heatmap of Campaign Performance (Standardized)",
+       x = "Metrics", y = "Campaign", fill = "Standardized Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Plotting bar chart for ROMI comparison
+ggplot(avg_romi_by_group, aes(x = reorder(Perf_Group, ROMI), y = ROMI, fill = Perf_Group)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_minimal() +
+  labs(title = "Average ROMI by Performance Group", x = "Performance Group", y = "Average ROMI") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none")
+
+
+```
+
+#### Observations:
+##### Top Performers (Focus on Investments):
+* Air France Branded:  This campaign has shown outstanding performance with the 
+highest profitability and customer journey KPIs.Although the CPL is high, which 
+is due to it having a high average search engine bid, it is justified by the 
+excellent returns.
+* Air France Brand & French Destinations: This campaign also stands out with its 
+high profitability metrics, indicating a highly effective campaign in terms of 
+return on marketing investment.
+
+##### High Performers (Second Priority Investments):
+* Geo Targeted Chicago: Demonstrates moderate profitability with strong cost management, 
+  though there's room to enhance customer journey metrics.
+* Geo Targeted DC: Exhibits moderate profitability with outstanding conversion rates, 
+  suggesting effectiveness in conversion strategies but room for customer journey optimization.
+* Air France Global Campaign: Showcases positive profitability with opportunities to 
+  boost engagement and conversion rates for full potential realization.
+* Geo Targeted New York: Presents moderate profitability paired with high conversion 
+  rates, highlighting the need for engagement optimization.
+* Geo Targeted Houston: Features moderate profitability and competitive costs, indicating 
+  potential for improved customer actions and engagement strategies.
+
+##### Average Performers (Can Be Explored):
+* Unassigned : Demonstrates moderate profitability and a solid booking volume, indicating 
+  room for improvement through customer journey and bidding strategy optimization.
+* Geo Targeted Seattle: Shows potential with a high engagement rate but needs better 
+  conversion and customer journey rates for enhanced performance.
+* Geo Targeted San Francisco : Exhibits potential with a moderate engagement rate, 
+  yet requires improvements in conversion and customer journey for better outcomes.
+* Paris & France Terms: Has moderate performance with positive profitability, but 
+  there's an opportunity for improvement in conversion rates through further exploration and optimization.
+* Geo Targeted Boston, Detroit, Los Angeles, Western Europe Destinations: These campaigns, 
+  each showing positive profitability, could improve performance by optimizing engagement and conversion rates.
+
+##### Low Performers (Can Be Deprioritized):
+* French Destinations: High engagement but low profitability and customer journey KPIs suggest 
+  inefficiencies in converting engagement to bookings, recommending deprioritization 
+  for better-performing campaigns.
+* Geo Targeted Atlanta, Philadelphia, Cincinnati, Miami: Negative ROMI and low ROAS values, 
+  coupled with lower engagement and conversion rates, indicate underperformance,    
+  suggesting their deprioritization.
+* Google_Yearlong 2006, Business Class: Underperforming with negative profitability and 
+  low ROAS, these campaigns are candidates for deprioritization.
+* Outside Western Europe: Exhibits negative profitability with a high engagement but low 
+  conversion rate, indicating a misalignment between engagement and actual conversions, 
+  recommending deprioritization for campaigns with better metrics.
+
+To further analyze low performers and average performers, keyword analysis will be done for enhanced recommendation
+
+```{r}
+
+# Keyword Analysis per campaign:
+
+# Average performers:
+Avg_Perf_KG <- training_df %>%
+  filter(Perf_Group == "Average_Perf") %>%
+  group_by(`Keyword Group`) %>%
+  summarise(
+    ROMI = round((sum(Total_Revenue) - sum(Total_Cost)) / sum(Total_Cost), 1)
+  ) %>%
+  arrange(desc(ROMI))
+
+print(Avg_Perf_KG) # Printing for analysis (See observations)
+
+# Aggregate clicks for each keyword group
+Avg_Perf_K <- training_df %>%
+  filter(Perf_Group == "Average_Perf") %>%
+  group_by(Keyword) %>%
+  summarise(Total_ROMI = sum(ROMI))
+
+# Normalize the frequency 
+normalized_freq <- Avg_Perf_K$Total_ROMI / max(Avg_Perf_K$Total_ROMI)
+
+# Wordcloud for most popular keyword groups for low performers based on ROMI
+wordcloud(words = Avg_Perf_K$Keyword, freq = Avg_Perf_K$Total_ROMI, min.freq = 0.5,
+          max.words = 200, random.order = FALSE, rot.per = 0.35, colors = brewer.pal(8, "Dark2"),
+          scale = c(2, 0.5))
+```
+
+#### Observations:
+Focus keywords for average performers:
+Notable Keyword Groups that has positive ROMI are Florence, Paris Branded, Boston to Paris Sale, International Detroit, Los Angeles to Paris Sale
+General Terms, San Francisco to Paris Sale, Unassigned, Los Angeles to France Sale and Rome
+Specific Keywords that can be noted: unassigned, western europe destinations, geo targeted seattle, geo targetted detroit, and general terms
+```{r}
+# Low performers:
+low_perf_KG <- training_df %>%
+  filter(Perf_Group == "Low_Perf") %>%
+  group_by(`Keyword Group`) %>%
+  summarise(
+    ROMI = round((sum(Total_Revenue) - sum(Total_Cost)) / sum(Total_Cost), 1)
+  ) %>%
+  arrange(desc(ROMI))
+
+print(low_perf_KG) # Printing for analysis (See observations)
+
+# Aggregate clicks for each keyword group
+low_perf_K <- training_df %>%
+  filter(Perf_Group == "Low_Perf") %>%
+  group_by(Keyword) %>%
+  summarise(Total_ROMI = sum(ROMI))
+
+# Normalize the frequency 
+normalized_freq <- low_perf_K$Total_ROMI / max(low_perf_K$Total_ROMI)
+
+# Wordcloud for most popular keyword groups for low performers based on ROMI
+wordcloud(words = low_perf_K$Keyword, freq = normalized_freq, min.freq = 0.5,
+          max.words = 200, random.order = FALSE, rot.per = 0.35, colors = brewer.pal(8, "Dark2"),
+          scale = c(2, 0.3))
+```
+
+#### Focus keywords for low performers:
+Keyword Groups that has positive ROMI are Google|rabat, Nice Branded, Philadelphia to Paris Sale, Google|Athens
+Google|Rome, International Atlanta, and Marseille. Further exploration of these keyword group can be done to improve performance
+Specific Keywords that can be noted: google_yearlong 2006, geo targeted philadelphia and french destinations
+
+#### Recommendations For Specific Keywords from Low Performers with Positive ROMI:
+
+##### Exploring Niche Market
+Custom Landing Pages: Develop destination-specific landing pages that offer 
+ localized content,including travel guides, itineraries,and testimonials from travelers.
+Community Engagement: Engage with online communities interested in these destinations  
+ (e.g., travel forums, social media groups) to promote content and special offers.
+Partnerships: Collaborate with local tourism boards and businesses to create exclusive package  
+ deals or content that can only be found through your campaign.
+
+##### City-Specific Sales Promotions
+Timed Discounts: Introduce early-bird discounts for flights from Philadelphia to
+ Paris to create a sense of urgency.
+Email Campaigns: Target previous customers from Philadelphia with personalized 
+ emails announcing the sale.
+Retargeting Ads: Use retargeting ads to reach users who have shown interest in 
+ Paris-related content but have not yet booked.
+
+##### Revitalize Underperforming Keywords
+Modernize Campaigns: If this keyword relates to an outdated campaign, relaunch it 
+ with current-year promotions, updated branding, and fresh messaging that reflects 
+ current travel trends.
+Content Marketing: Create content that leverages nostalgia while connecting it to
+ present-day offers or travel opportunities.
+Localized Offers: Create Philadelphia-centric offers that cater to the interests and 
+ behaviors of this specific demographic, such as promoting historical tours or 
+ gastronomy experiences in destinations served by Air France.
+ 
+##### Reposition and Rebranding
+Segmentation: Identify which French destinations are most popular with different 
+ market segments and tailor campaigns accordingly.
+Visual Content: Use high-quality images and videos of French locales to inspire 
+ potential travelers and rekindle interest in French destinations.
+Storytelling: Tell the unique story of each destination, focusing on less-known 
+ attractions or experiences to differentiate from standard tourist spots.
+Influencer Collaborations: Partner with travel influencers to showcase French 
+ destinations through their platforms, reaching a broader audience with authentic content.
+
+### STEP 4 - KAYAK BENCHMARK ANALYSIS 
+
+To estimate the viability of the Kayak value proposition, the defined KPIs 
+from step one will be developed. Next, the same KPIs will be aggregated based 
+on the existing Search engine platforms, and then a comparision will be made 
+with Kayak as the bench mark.
+
+```{r}
+# Kayak Benchmarking 
+
+# Renaming columns and creating KPIs names to align with Search engine names
+#Search Engine
+kayak_df$Search_Engine    <- kayak_df$`Search Engine`
+kayak_df$`Search Engine`  <- NULL
+# Tota; Revenue
+kayak_df$Total_Revenue    <- kayak_df$`Total Revenue`
+kayak_df$`Total Revenue`  <- NULL
+# Total Cost
+kayak_df$Total_Cost       <- kayak_df$`Media Cost`
+kayak_df$`Media Cost`     <- NULL
+# Total Profit
+kayak_df$Total_Profit     <- kayak_df$`Net Revenue`
+kayak_df$`Net Revenue`    <- NULL
+# Quantity
+kayak_df$Quantity         <- kayak_df$`Total Bookings`
+kayak_df$`Total Bookings` <- NULL
+# Avg Revenue
+kayak_df$Avg_Revenue      <- kayak_df$`Avg Ticket`
+kayak_df$`Avg Ticket`     <- NULL
+
+## Creating additional columns and KPIs 
+# Avg Cost
+kayak_df$Avg_Cost   <- kayak_df$Total_Cost / kayak_df$Quantity
+# Avg Profit
+kayak_df$Avg_Profit <- kayak_df$Total_Profit / kayak_df$Quantity
+# ROAS 
+kayak_df$ROAS       <- kayak_df$Total_Revenue / kayak_df$Total_Cost
+# ROMI
+kayak_df$ROMI       <- kayak_df$Total_Profit / kayak_df$Total_Cost
+# CPL
+kayak_df$CPC        <- kayak_df$Total_Cost / kayak_df$Clicks
+# CPA 
+kayak_df$CPA        <- kayak_df$Total_Cost / kayak_df$Quantity
+# Conversion rate
+kayak_df$Conversion_rate <- kayak_df$Quantity / kayak_df$Clicks
+# Impressions
+kayak_df$Impressions <- 0
+# CPL 
+kayak_df$CPL <- 0
+
+#Creating a vector containing the KPIs for the Kayak dataframe 
+Kayak_row <- as.vector(kayak_df[, c("Search_Engine", 
+                                    "Total_Revenue", 
+                                    "Total_Cost",
+                                    "Quantity",
+                                    "Clicks",
+                                    "Impressions",
+                                    "Total_Profit",
+                                    "Avg_Revenue",
+                                    "Avg_Cost",
+                                    "Avg_Profit",
+                                    "ROAS",
+                                    "ROMI",
+                                    "CPL",
+                                    "CPC",
+                                    "CPA")])
+
+
+# Summarizing the search engine data
+Search_Engines_df <- training_df %>%
+  group_by(`Publisher Name`) %>%
+  summarise(
+    Total_Revenue = round(sum(Total_Revenue),0),
+    Total_Cost    = round(sum(Total_Cost),0),
+    Quantity      = round(sum(Quantity),0),
+    Clicks        = round(sum(Clicks),0),
+    Impressions   = round(sum(Impressions),0)
+  )
+
+# Calcualating the summarized KPIs
+#Profit
+Search_Engines_df$Total_Profit <- round(Search_Engines_df$Total_Revenue - Search_Engines_df$Total_Cost,0) 
+# Avg Revenue
+Search_Engines_df$Avg_Revenue <- round(Search_Engines_df$Total_Revenue / Search_Engines_df$Quantity,0)
+# Avg Cost
+Search_Engines_df$Avg_Cost <- round(Search_Engines_df$Total_Cost / Search_Engines_df$Quantity,0)
+# Avg Profit
+Search_Engines_df$Avg_Profit <- round(Search_Engines_df$Total_Profit / Search_Engines_df$Quantity,0)
+#ROAS
+Search_Engines_df$ROAS <- round(Search_Engines_df$Total_Revenue / Search_Engines_df$Total_Cost,1)
+#ROMI
+Search_Engines_df$ROMI <- round(Search_Engines_df$Total_Profit / Search_Engines_df$Total_Cost,1)
+#CPL
+Search_Engines_df$CPL <- round(Search_Engines_df$Total_Cost / Search_Engines_df$Impressions,3)
+#CPC
+Search_Engines_df$CPC <- round(Search_Engines_df$Total_Cost / Search_Engines_df$Clicks,3)
+#CPA
+Search_Engines_df$CPA <- round(Search_Engines_df$Total_Cost / Search_Engines_df$Quantity,3)
+
+
+#merging the kayak data with the aggregated serach engine dataframe
+se_column_names <- colnames(Search_Engines_df)
+names(Kayak_row) <- se_column_names
+
+Search_Engines_df <- rbind(Search_Engines_df, Kayak_row)
+
+
+# Assesing the data frame 
+Search_Engines_df_sorted <- Search_Engines_df[order(Search_Engines_df$ROMI, decreasing = TRUE), ]
+Search_Engines_df_ratios <- Search_Engines_df_sorted[, c(1:3, 7:ncol(Search_Engines_df_sorted))]
+
+# Filtering data for KPIs only
+# Selecting specific columns from the data frame
+KPI <- Search_Engines_df_ratios %>%
+  select(`Publisher Name`, ROMI, CPL, CPC, CPA)
+
+# Transform the data into a long format
+long_data <- pivot_longer(KPI, cols = -`Publisher Name`, names_to = "Metric", values_to = "Value")
+
+print(Search_Engines_df_ratios)
+
+# Create the bar chart with facets
+ggplot(long_data, aes(x = `Publisher Name`, y = Value, fill = `Publisher Name`)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  facet_wrap(~ Metric, scales = "free_y") +
+  theme_minimal() +
+  labs(title = "KPIs by Publisher Name", x = "Publisher Name", y = "Value") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
+
+
+
+```
+
+#### Observations:
+Looking at the data we see that the Kayak Meta Search Engine is yielding a similar 
+avg revenue and profit as the top Search Engines, MSN and Yahoo. However, when it comes 
+to the average cost, Kayak is miles ahead of the other platforms with an average cost of 
+approximately 17 compared to a range between 70-481 from the other search engines. 
+This is significantly boosting the profitability KPIs giving a 3x ROMI and ROAS 
+compared to the second best platform Yahoo (approximately 65 compared to 18.5). 
+Looking at the cost KPIs, CPC and CPA, we see that Kayak is performing mediocre 
+in terms of CPC despite af very low average cost, which indicates that it is not 
+a great platform for generating awareness and engagement. However, when it comes 
+to the CPA, Kayak is again outperforming all other platform by a significant margin 
+having a CPA of 17 compered to the second best, Yahoo, at 70. 
+This indicates that Kayak is an exceptionally good platform at generating quality 
+leads which converts into purchases at low cost  compared to other platforms. 
+On the other hand, Kayak is not a platform suited for generating awarness and engagement. 
+
+Assessing the other platforms, overture is the most cost efficient at generating 
+awareness but should not be used for any other types of campaigns. 
+Google is a more expensive version of the other platforms, MSN and Yahoo, but 
+have a volume and reach which the other ones do not have. Lastly, the value 
+proposition of Yahoo and MSN was that they were cost effective alternatives to 
+convert customers, but with the introduction of Kayak, they have lost their 
+unique value proposition, and now is left as jack of all trades master of none 
+platforms. Hence, MC recommends the use of Kayak for converting customers into 
+sales and moving. Additionally, Google can be kept for volume and reach, but the 
+business should be aware of more cost effective alternatives, while Overture should 
+only be used for awareness campaigns. 
+
+### STEP 5 - KPI IMPACT ASSESMENT
+
+Based on the above 4 analytically steps, MC recommends the following actions. 
+
+#### Campaign x Platform recommendations and effects: 
+* On Yahoo:
+Terminate the geo target campaigns for Boston, Detroit, Houston, Los Angeles
+Philadelphia, San Francisco, Seattle on Yahoo. 
+This will improve the respective campaign average ROMI from: 
+Boston / Detroit / Houston: -0.2 to 0.8. 
+Los Angeles: -0.3 to 1.3. 
+Philadelphia: -1.2 to 0.2.
+San Francisco: 0.3 to 1.3. 
+Seattle: -0.1 to 0.8.
+And free up: 2,782 in marketing budget. 
+
+* On Google: 
+Terminate the French Destination and Western Europe Campaigns on Gooole. 
+This will improve the respective campaign average ROMI from 
+French destination: 0.75 to 1.7 
+Western Europe: 5.2 to 5.5
+And free up: 40,217 in marketing budget 
+
+* On all platforms: 
+Terminate the Business Class, Atlanta, Cincinnati, Miami, Outside Western Europe. 
+campaigns
+Effectively changing their ROMI from -1 to 0. 
+And free up: 7473 in marketing budget. 
+
+* Google yearlong: 
+The Google yearlong is neither a profitable campaign with a marketing spend of 80300
+and an ROMI of -0.8, this is only feasible if the management belive the awareness 
+spillover effect to other campaigns can justify the net loss of 64,264.
+based on the ROMI, BC recommends to terminate this campaign as Air France is 
+a well known brand and should focus more on conversion rather than awareness. 
+This will free up: 80,300 in marketing budget.
+
+#### Kayak x Search Engines:
+This would in total free up 130,772 in marketing budget. 
+This additional budget can either be invested in the Kayak meta search engine 
+at an ROMI of 64.5 which would yield a profit of 8,382,485 assuming a linear 
+relationship between number of sponsored link on kayak and the ROMI. 
+Alternatively, the marketing budget can be used for AB testing new and improved 
+versions of the average and low performing campaigns with new keyword groups. 
+
+#### Campaigns x Keywords:
+To enhance campaign performance, our A/B testing strategy should prioritize high-performing 
+ keyword groups for our least successful campaigns, including Florence, Paris Branded, and 
+ Boston to Paris Sale. Additionally, we plan to leverage specific keywords such as unassigned, 
+ Western Europe destinations, geo-targeted Seattle, and geo-targeted Detroit for testing within 
+ our average and underperforming campaigns. While the direct impact on Return on Marketing 
+ Investment (ROMI) cannot be precisely predicted, the strategic application of these keywords, 
+ informed by their success in other contexts, is anticipated to yield a positive ROMI. 
+ This approach is grounded in data-driven insights, aiming to optimize our marketing 
+ efforts for enhanced campaign efficiency and profitability.. 
+
+### REFERENCE LIST 
+* Park, L. (2023, January 18). What is a conversion funnel? Optimize your customer journey. Search Engine Journal. https://www.searchenginejournal.com/conversion-funnel-how-to-optimize-customer-journey/474337/
+
+* Semrush (2021, August 6). 16 marketing KPIs you need to monitor in 2024. Semrush Blog. https://www.semrush.com/blog/kpi-marketing/?kw=&cmp=US_SRCH_DSA_Blog_EN&label=dsa_pagefeed&Network=g&Device=c&utm_content=683861103740&kwid=dsa-2263819779759&cmpid=18348486859&agpid=156312207533&BU=Core&extid=97592280487&adpos=&gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgToWwthClsBcCO0k7SBfYz13Xqs-mqmQzSex8KGWLMBuE-nPmo5v0ARoCnGgQAvD_BwE
+
+* LinedIn (2023, November 10). How can you adjust your SEM bidding strategy for changing markets?. LinkedIn. https://www.linkedin.com/advice/1/how-can-you-adjust-your-sem-bidding-wmqrf
+
+* InsightsWhatle (2020, October 19). Cpm, CPC, cpl, CPA, and CPI: What's the difference? | Insightwhale. Digital Analytics, Conversion Rate Optimization and Business Intelligence. https://insightwhale.com/cpm-cpc-cpl-cpa-and-cpi-whats-the-difference/
