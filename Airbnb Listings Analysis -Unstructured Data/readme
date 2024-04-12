@@ -1,4 +1,5 @@
 Airbnb Case Study Project Summary
+
 Overview:
 The Airbnb Case Study explores strategic optimization of listing descriptions by Airbnb hosts. This study aims to enhance the guest experience, increase booking frequencies, and improve overall guest satisfaction by aligning property listings with diverse guest preferences.
 
@@ -12,6 +13,7 @@ Sentiment Analysis: Listings with positive sentiments in descriptions correlate 
 Linguistic Insights: Descriptions that mention practical amenities (like equipped kitchens and proximity to public transport) and comfort features (such as queen size beds) align well with guest needs.
 Local and Cultural Attractions: Properties that highlight local cultural elements or proximity to beaches and resorts tend to attract more interest, suggesting that guests appreciate listings that integrate local vibes and scenic locations.
 Amenities and Accessibility: High-value amenities such as suitability for events, pet-friendliness, and accessibility features like step-free access are prioritized by guests.
+
 Dashboard:
 A detailed RShiny dashboard is developed to mimic Airbnb’s functionality, allowing users to filter and explore listings based on various criteria like property type, amenities, and price. This tool helps visualize the distribution of properties and provides deeper insights into property features, neighborhood details, and host characteristics, aiding hosts in tailoring their listings to better match guest preferences.
 
