@@ -1,1 +1,19 @@
+### Bank Churn Analysis Project
 
+#### Overview:
+This project examines factors contributing to high customer churn rates at a bank, focusing on discrepancies in churn between different customer segments and geographic regions.
+
+#### Problem Addressed:
+The analysis identifies a significant disparity in churn rates among customers with positive balances compared to those with zero balances, with a notably higher churn rate of 20% in the former group. This suggests dissatisfaction with the value or services provided by the bank, prompting customers to switch to competitors offering better benefits. Additionally, churn rates vary geographically, with a high churn rate of 32% in Germany compared to about 6% in France and Spain, indicating the need for region-specific customer retention strategies.
+
+#### Methodology:
+- **Data Preparation and Cleaning**: Handling missing values and cleaning the dataset for accurate analysis.
+- **Predictive Modeling**: Employing logistic regression to predict customer churn based on various attributes.
+- **Evaluation**: Calculating model accuracy and constructing a confusion matrix to evaluate the performance of the logistic regression model.
+
+#### Key Findings:
+- **Customer Service Strategy**: There is a need to overhaul the customer service strategy to better cater to customers with positive balances, especially in regions with higher churn rates like Germany.
+- **Model Performance**: The logistic regression model predicts churn with 83% accuracy, indicating it is generally effective but could be improved, particularly in identifying customers who are likely to stay (specificity of 70%).
+
+#### Conclusion:
+The findings highlight the necessity for targeted interventions to enhance the customer experience and loyalty. By addressing the specific needs and expectations of different customer segments and regional markets, the bank can reduce churn rates and secure its competitive position in the market.
