@@ -1,1 +1,35 @@
+Lavazza Case Study
+#### Overview:
+- **Situation**: Lavazza, an established Italian coffee brand with a 44% retail share, is recognized for its quality but is experiencing logistic challenges due to fluctuating market conditions and pressures from large-scale retail chains.
+- **Complication**: The logistics network is strained by increased product range and the shift towards centralized storage demanded by major retailers, which necessitates direct deliveries.
+- **Question**: The primary focus is on overhauling Lavazza's logistics network to improve efficiency, reduce costs, and enhance customer satisfaction. Key considerations include determining optimal warehouse locations and the most efficient distribution to customers.
+- **Answer**: A linear transshipment programming model is proposed to minimize handling and distribution costs from the central and satellite warehouses to six customers, ensuring demands are met efficiently.
 
+#### Decision Visualization:
+- Management is considering implementing a satellite warehouse co-located with one of its customers to allow Full Truck Loads (FTL) which is expected to reduce costs significantly.
+
+#### Business Objective & Constraints:
+- **Objective**: Minimize the sum of distribution and handling costs while ensuring customer demands are met.
+- **Constraints**: Include maintaining the central warehouse in the network, the possibility of only one satellite warehouse, and ensuring the sum of outbound shipments from any satellite warehouse matches the inbound amount.
+
+#### Scenario Analysis:
+- Recommendations may shift based on handling cost changes and variations in customer demand. For instance, an increase in customer 4's demand could make Satellite Warehouse 4 the most cost-effective option.
+
+#### Recommendations:
+- Establish Satellite Warehouse 2 (SW2) as it offers the most significant cost savings and efficient distribution to high-demand customers.
+
+### Excel Model Analysis
+
+#### Model Sheets and Their Roles:
+- **Original Model**: Establishes the baseline for distribution costs and optimal warehouse usage.
+- **Scenario Simulations**: Each satellite warehouse is activated in isolation to determine its impact on overall costs.
+- **Sensitivity Report**: Analyzes how changes in costs or demand affect the preferred distribution strategy.
+
+#### Key Model Insights:
+- **SW2 and SW4 Analysis**: SW2 is initially optimal due to its lower cost. However, scenario planning suggests that SW4 may become more advantageous if customer demand or handling costs at SW2 increase beyond certain thresholds.
+- **Cost-Benefit Analysis**: Implementing SW2 would result in a cost saving of $1,465,660 without sacrificing customer satisfaction.
+
+#### Strategic Implications:
+- The data-driven approach allows Lavazza to adapt its logistics strategy based on real-time market conditions and internal cost dynamics. Establishing SW2 but remaining responsive to changes that might favor SW4 or other options is recommended.
+
+The Lavazza Business Case illustrates a strategic approach to logistics management, focusing on optimizing a network that balances cost, efficiency, and customer service through informed decision-making supported by quantitative analysis.
