@@ -1,1 +1,13 @@
+Project Summary: Air France Advertising Campaign Analysis
+Overview:
+This project provides an analytical review of Air France's advertising campaigns with the goal of understanding and optimizing the relationship between ad spend, user engagement, and resulting booking volumes.
 
+Problem Addressed:
+The primary challenge addressed in this project is to identify how different advertising strategies impact the volume of bookings and to determine the most cost-effective methods to enhance campaign performance.
+
+Key Insights and Outputs:
+Correlation Analysis: The analysis reveals a strong positive correlation between the total volume of bookings and the amount spent on advertising. As ad spend increases, so does the number of bookings, indicating effective use of advertising budget.
+Impact of Clicks: A significant positive correlation is also observed between the number of clicks (indicative of customer engagement) and bookings. This suggests that higher engagement levels are associated with higher booking volumes.
+Data Trends: Visualization through scatter plots shows clear trends and relationships, offering intuitive understanding of how various factors contribute to successful outcomes.
+
+The findings suggest that increasing ad spend and focusing on strategies that enhance customer engagement (like optimizing click-through rates) can substantially boost booking volumes. The project underscores the importance of targeted advertising investments and provides a data-driven basis for refining future marketing strategies to maximize returns on investment.
