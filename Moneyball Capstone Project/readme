@@ -1,1 +1,39 @@
+The Moneyball Capstone Project for the Hult International Business School course on "Visualizing & Analyzing Data with R" focuses on the Oakland Athletics' strategy to effectively build a competitive team despite a limited budget, particularly after losing key players in 2001. Here's an analysis based on the description provided:
 
+### Introduction and Business Problem
+
+#### Situation:
+In 2001, the Oakland Athletics (OA) faced significant challenges due to the departure of key players Jason Giambi, Johnny Damon, and Jason Isringhausen. This presented a major problem as these players were central to the team's performance.
+
+#### Complication:
+The team operated under a relatively low budget ($33,810,750), which was significantly lower compared to other Major League Baseball (MLB) teams, with the highest at $112,287,143.
+
+#### Question:
+The primary question addressed was how the OA could replace these three key players with alternatives that are as competitive within their existing budget constraints.
+
+#### Answer:
+The team’s strategy pivoted from focusing solely on traditional batting metrics like Batting Average (BA) to incorporating On Base Plus Slugging (OPS), which combines On Base Percentage (OBP) and Slugging Average (SA). This metric better captures a player's overall ability to contribute to the game by reaching bases and hitting with power.
+
+### Methodology
+The approach involved using an integer linear programming model to maximize the OPS metric while adhering to the budget constraints. The model aimed to find the best combination of players that could be acquired within the set budget, ensuring that their collective OPS was maximized. The solution suggested the acquisition of:
+- Chris Michalak from Toronto Blue Jays
+- Barry Bonds from San Francisco Giants
+- Mike Stanton from New York Yankees
+
+### Analysis
+1. **Player Selection and Budget Utilization**: 
+   The selected players’ total salary was calculated at $12,950,000, which was well within the team’s budget constraints, demonstrating effective financial management.
+
+2. **OPS and Performance Consideration**:
+   The chosen players had high OPS values, indicating that they were likely to have a significant impact on the team's performance. This shift from traditional metrics to OPS could potentially provide a more holistic view of a player's contributions.
+
+3. **Replacement Strategy**:
+   The strategic replacement of key players with those having higher OPS but lower market visibility or undervalued by other teams mimics the real-life application of the Moneyball strategy famously used by Billy Beane, the General Manager of Oakland Athletics.
+
+### Recommendations and Insights
+- **Continued Use of Sabermetrics**: This project validates the continued use of advanced metrics like OPS in player evaluation and team assembly. Oakland Athletics and other teams could further this approach by incorporating even more granular analytics, such as player durability, under pressure performance, and defensive metrics.
+- **Scouting and Development**: Investing in scouting and development could help in identifying undervalued players in lower leagues or other regions, expanding the talent pool available within the budget.
+- **Dynamic Budget Allocation**: Flexibility in budget allocation based on available talent and strategic needs can help in maintaining competitiveness over longer periods.
+
+### Conclusion
+This project effectively illustrates how data analytics can transform decision-making in sports, enabling teams to achieve competitive balance despite financial constraints. The success of this approach in baseball could serve as a model for other sports and industries where budget constraints limit options for talent acquisition or resource allocation.
