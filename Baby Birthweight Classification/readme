@@ -1,1 +1,23 @@
+Baby Birthweight Classification Study
+Overview:
+This project focuses on predicting low birth weight (LBW) in newborns, an important indicator of neonatal health and future developmental prospects. Low birth weight is defined by the World Health Organization as a weight of less than 2500 grams at birth and is associated with various health complications.
 
+Problem Addressed:
+The challenge is to identify infants at risk of LBW using computational analytics and machine learning. By predicting LBW, healthcare providers can initiate early interventions to improve health outcomes for at-risk newborns.
+
+Dataset:
+The study analyzes a range of features related to both the infant and the parents, including:
+
+Mother's and father's age and education
+Timing and frequency of prenatal visits
+Health behaviors during pregnancy such as smoking and alcohol consumption
+Birth weight and Apgar scores (immediate post-birth condition)
+
+Analysis:
+Predictive Modeling: Machine learning techniques are utilized to analyze factors influencing LBW and predict which infants are most at risk.
+Data Imputation: Addresses missing values in critical features like prenatal care timing and parents' demographics to ensure robust model performance.
+
+Key Outputs:
+The study outputs a model that can accurately predict low birth weight based on the identified risk factors.
+Insights from the model allow healthcare providers to tailor prenatal interventions and potentially mitigate the risks associated with LBW.
+This study leverages detailed data and sophisticated analytical techniques to address a critical public health issue, aiming to provide actionable insights that can significantly improve the outcomes for newborns at risk of low birth weight. 
