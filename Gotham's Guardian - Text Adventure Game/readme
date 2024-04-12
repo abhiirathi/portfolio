@@ -1,1 +1,11 @@
+The document titled "Gotham's Guardian - Text Based Adventure Game" developed by Abhishek Rathi describes a Python-based text adventure game where players take on the role of Batman, the iconic superhero, in a mission to save Gotham City from notorious villains. The game is structured into three main stages:
 
+1. **Dark Knight Duel**: Players confront either Joker or Bane, employing strategic thinking and utilizing Batman's gadgets and skills.
+
+2. **Side Mission with Catwoman**: This stage involves a race against time to solve riddles and disable a central control system to prevent a catastrophe.
+
+3. **Gotham Challenge**: This final stage tests the player's detective skills and decision-making through various critical scenarios to save Gotham City.
+
+The game integrates various programming concepts, such as random number generation, threading for countdowns, and complex control structures to manage game flow and decisions. It's designed to provide an immersive experience, reflecting the developer's passion for Batman and influenced by various Batman movies, notably Christopher Nolan's portrayals and classic Batman video games like those on the Nintendo Game Boy.
+
+The document includes detailed code snippets that outline how different game functions are implemented, offering a narrative-driven, engaging gameplay experience that emphasizes both action and strategic planning. The game's outcome is determined by the player's decisions, highlighting the importance of choice and consequence in the game narrative.
